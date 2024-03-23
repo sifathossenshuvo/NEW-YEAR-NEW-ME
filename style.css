@@ -31,7 +31,7 @@ background-repeat: no-repeat;
    margin: 0px 0px 0px 1120px;
 margin-top: 230px;
 width: 500px;
-text-align: right;
+text-align: left;
 margin-bottom: 160px;
  margin-right: 230px;
   } 
@@ -194,5 +194,5 @@ text-align: center;
 opacity: 1;
 }
 .mor{
-position: top 100px;
+
 }
