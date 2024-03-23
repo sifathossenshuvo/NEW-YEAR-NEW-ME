@@ -13,11 +13,9 @@
   }
  body {
    background-image: url('new-year-new-me-main/images/banner/banner3.png');
- 
-  background-repeat: no-repeat;
-  background-size: cover;
+ background-size: cover;
 background-size: 100%;
- display: block;
+background-repeat: no-repeat;
  }
   
  
@@ -58,10 +56,12 @@ margin-bottom: 160px;
     font-size: 16px;
     text-align: left;
     font-style: normal;
+    color: #444343;
+padding-left: 10px;
     }
 
   .line{
-    margin-top: 200px;
+    margin-top: 389px;
     padding-left: 60px;
     font-size: 20px;
 font-weight:800;
@@ -119,13 +119,9 @@ border: 5px;
 .id{
 text-align: center;
 }
-.background-container{
- text-align: left top;
-  text-align: center;
-background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);;
-width: 1440px;
+
   
-}
+
 button {
 margin-top: 40px;
   border-radius: 5px;
@@ -182,7 +178,21 @@ font-weight: 400;
 line-height: 26px;
 position: absolute;
 text-align: left;
+width: 400;
 } 
 .bold{
   width: 288px;
+  
+}
+.right-img{
+  background-image: url(new-year-new-me-main/images/watch.png);
+margin-bottom: 20px;
+  background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+text-align: center;
+opacity: 1;
+}
+.mor{
+position: top 100px;
 }
