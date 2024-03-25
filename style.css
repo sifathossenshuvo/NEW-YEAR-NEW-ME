@@ -13,8 +13,8 @@
   }
  body {
    background-image: url('new-year-new-me-main/images/banner/banner3.png');
-background-size: cover;
-height: 808px;
+
+background-size: 100%;
 background-repeat: no-repeat;
  }
  
