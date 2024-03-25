@@ -287,111 +287,53 @@ margin-top: 55px;
   height: 577px;
    margin-top: 120px;
 
+}
 
-
-
-}
-.sub{
- padding-top: 128px;
- position: absolute;
- right: 61px;
-}
-.scribe{
-  color: #FFF;
-
-font-family: "Work Sans";
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
-.email1{
-  background: #1E1E1E;
- 
-  
-  border-color: #FFF;
-  color: white;
-  padding: 18px 18px  18px;
-  padding-right: 118px;
-  border-radius: 8px;
-  margin-top: 11px;
-}
-.email1:focus{
-  background-color:rgb(46, 46, 87);
-  
-}
-.button{
-  width: 170.106px;
-height: 64px;
-flex-shrink: 0;
-border-radius: 8px;
-
-border: none;
-color: #FFF;
-background-color: #005FAC;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-align: center;
-position: relative;
-bottom: -90px;
-left: -310px;
-}
 .Future{
   color: #F8F8F8;
-
-font-family: "Work Sans";
-font-size: 45px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 140px;
-  position: relative;
-  right: 1070px;
-  top:-195px;
-
+  font-size: 45px;
+  font-family: "bold";
 }
-.text-pro{
-width: 485px;
-position: relative;
-left: -1070px;
-top: -235px;
-}
-.text-pro{
-  color: rgb(219, 210, 210);
-
-font-family: "Work Sans";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-}
-.about-info{
-  color: rgb(219, 210, 210);
-  display: flex;
-font-family: "Work Sans";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px
-
+.text{
  
-}
-.about-info{
+  color: #FFFFFF;
+  width: 485px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "ragular";
+  font-style: normal;
   position: relative;
-left: -1065px;
-top: -250px;
+  top: -70px;
+  padding-top: 30px;
+  
 }
-.info-description{
+.e-con{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-style: normal;
+ 
+  line-height: 26px;
+  font-family: "ragular";
+  position: relative;
+  top: -100px;
+  padding-top: 30px;
+}
+.Phone{
+  color: #FFFFFF;
+  font-style: normal;
+  font-size: 16px;
 
+  line-height: 26px;
+  font-family: "ragular";
+  position: relative;
+  top: -130px;
+  padding-top: 30px;
+  
 }
-.info-title{
- position: relative;
- top: -6px;
- left: -5px;
-}
-footer{
-  overflow-x: hidden;
+.img{
+  position: relative;
+  top: -175px;
+  padding-top: 30px;
+ 
+ 
 }
