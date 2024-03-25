@@ -12,12 +12,18 @@
    }
   }
  body {
-   background-image: url('new-year-new-me-main/images/banner/banner3.png');
 
-background-size: 100%;
+  background-image: url('new-year-new-me-main/images/banner/banner3.png');
+ 
+  background-size: 100%;
+
 background-repeat: no-repeat;
+overflow-x: hidden;
+margin: 0;
+padding: 0;
  }
  
+
  .banner-content{
 
   margin: 0px;
@@ -32,7 +38,7 @@ background-repeat: no-repeat;
   
 position: relative;
 right: -1130px;
-top: 144px;
+top: 70px;
 
   
     
@@ -62,15 +68,26 @@ top: 144px;
     text-align: left;
     font-style: normal;
     color: #444343;
-padding-left: 10px;
+padding-left: 22px;
+line-height: 26px;
+position: relative;
+margin-top: 30px;
+
     }
 
   .line{
     margin-top: 389px;
-    padding-left: 60px;
+    padding-left: 105px;
     font-size: 20px;
 font-weight:800;
 width: 416px;
+position: relative;
+top: -140px;
+
+  }
+  .bold{
+    position: relative;
+    left: -5px;
   }
   .shrink img {
     transition: 1s ease;
@@ -98,16 +115,42 @@ margin-top: 530px;
 
  /* my plan section */
  .plans{
-  text-align: center;
+ text-align: center;
   padding-top: 92px;
+  font-size: 40px;
+  position: relative;
+  bottom: -90px;
+  margin-bottom: 50px;
+ }
+ .resume{
+  position: relative;
  }
  .skills-container{
   display: flex;
   justify-content: center;
+  background-size: 1141px;
+  text-align: center;
+ 
+
+ }
+ .skill-description{
+  position: relative;
+  top: -50px;
+  padding: 16px;
+ }
+ .skill-title{
+  position: relative;
+  top: -15px;
+  margin-top: 30px;
  }
  .grow{
-  padding: 65px;
+ margin: 65px;
 border: 5px;
+color: #151414;
+font-family: bold;
+font-size: 30px;
+padding: 16px;
+
  }
  .grow img {
   transition: 1s ease;
@@ -131,12 +174,12 @@ button {
 margin-top: 40px;
 width: 160px;
 height: 64px;
-flex-shrink: 0; 
+color: #005FAC;
 border-radius: 5px;
 background: #FFF;
   transition: all 0.5s;
   cursor: pointer;
-  
+  font-size: 20px;
   border: none;
   
 }
@@ -179,29 +222,36 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px;
-position: absolute;
+
 text-align: left;
 width: 400;
+margin-top: 30px;
 } 
+
 .bold{
+  font-weight: 40px;
   width: 288px;
-  
+  position: relative;
 }
 .right{
   background-image: url(new-year-new-me-main/images/watch.png);
 margin-bottom: 20px;
+margin-top: 129px;
   background-repeat: no-repeat;
 background-position: center top;
 position: relative;
 text-align: center;
 opacity: 1;
-
+background-size: 1140px;
 
 }
 .mor{
   position: absolute;
-  top: 30px;
+  top:6px;
   left: 412px;
+}
+.mind{
+  
 }
 .mor{
   color: #FFF;
@@ -212,6 +262,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 width: 459px;
+text-align: left;
 }
 .go{
   position: absolute;
@@ -226,25 +277,19 @@ width: 459px;
 background: #FFF;
 margin-top: 55px;
 }
-.mind{
-  position: absolute;
-  top: 75px;
-  left: 269px;
-  color: #FFF;
 
-  font-family: "Work Sans";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  width: 459px;
+.iner{
+  padding-top: 60px;
 }
 /* footer related section */
 .footer{
- background: #1E1E1E;
- background-size: 100%;
- height: 577px;
- margin-top: 120px;
+  background-color: #1E1E1E;
+  height: 577px;
+   margin-top: 120px;
+
+
+
+
 }
 .sub{
  padding-top: 128px;
@@ -280,10 +325,10 @@ line-height: normal;
 height: 64px;
 flex-shrink: 0;
 border-radius: 8px;
-background: #005FAC;
+
 border: none;
 color: #FFF;
-
+background-color: #005FAC;
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
@@ -302,7 +347,51 @@ font-size: 45px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-
+margin-top: 140px;
   position: relative;
   right: 1070px;
+  top:-195px;
+
+}
+.text-pro{
+width: 485px;
+position: relative;
+left: -1070px;
+top: -235px;
+}
+.text-pro{
+  color: rgb(219, 210, 210);
+
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.about-info{
+  color: rgb(219, 210, 210);
+  display: flex;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px
+
+ 
+}
+.about-info{
+  position: relative;
+left: -1065px;
+top: -250px;
+}
+.info-description{
+
+}
+.info-title{
+ position: relative;
+ top: -6px;
+ left: -5px;
+}
+footer{
+  overflow-x: hidden;
 }
