@@ -1,6 +1,6 @@
- /* nested menu styles */
 
-   body{
+
+   style{
     // <uniquifier>: Use a unique and descriptive class name
     // <weight>: Use a value from 100 to 900
     
@@ -13,43 +13,48 @@
   }
  body {
    background-image: url('new-year-new-me-main/images/banner/banner3.png');
- background-size: cover;
-background-size: 100%;
+background-size: cover;
+height: 808px;
 background-repeat: no-repeat;
  }
+ 
+ .banner-content{
+
+  margin: 0px;
+  padding: 0px;
+}
   
  
  
    
 
 .banner{
+  
+position: relative;
+right: -1130px;
+top: 144px;
 
   
     
      }
   .banner-content{
-   margin: 0px 0px 0px 1120px;
-margin-top: 230px;
-width: 500px;
-text-align: left;
-margin-bottom: 160px;
- margin-right: 230px;
+   
+    margin-top: 230px;
+    width: 500px;
+    text-align: right;
+   
   } 
   .banner-greeting{
     font-size: 65px; 
     color: white;
     margin-bottom: 40px;
   }
-  .banner-greeting:hover{
-    
-     
-   }
-  
+ 
   #shuvo{
     color: white;
     font-size: 16px;
     font-weight: 26px;
-    font-style: regular;
+    font-style: normal;
   }
   .section-description{
     font-weight: 400;
@@ -124,51 +129,49 @@ text-align: center;
 
 button {
 margin-top: 40px;
-  border-radius: 5px;
-  background-color: white;
-  border: none;
-  color: #005FAC;
-  text-align: center;
-  font-size:20px;
-  padding: 16px;
-  width: 160px;
-  size: 65px;
-font-family: "semibold";
-
+width: 160px;
+height: 64px;
+flex-shrink: 0; 
+border-radius: 5px;
+background: #FFF;
   transition: all 0.5s;
   cursor: pointer;
   
+  border: none;
   
-  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 }
+
+
 
 button{
   cursor: pointer;
- 
+  display: inline-block;
   position: relative;
   transition: 0.5s;
+  
 }
 
 button:after {
   content: '»';
+  margin-top: 6px;
   position: absolute;
   opacity: 0;  
   top: 14px;
-  
-  
-  
+  right: -20px;
+  transition: 0.5s;
+color:darkolivegreen;
 }
 
 button:hover{
   padding-right: 24px;
   padding-left:8px;
+  background-color: rgb(159, 159, 240);
 }
 
 button:hover:after {
   opacity: 1;
   right: 10px;
 }
-
 .li{
   color: var(--Dark-02, #444343);
 font-family: "Work Sans";
@@ -184,7 +187,7 @@ width: 400;
   width: 288px;
   
 }
-.right-img{
+.right{
   background-image: url(new-year-new-me-main/images/watch.png);
 margin-bottom: 20px;
   background-repeat: no-repeat;
@@ -192,7 +195,114 @@ background-position: center top;
 position: relative;
 text-align: center;
 opacity: 1;
+
+
 }
 .mor{
+  position: absolute;
+  top: 30px;
+  left: 412px;
+}
+.mor{
+  color: #FFF;
 
+font-family: "Work Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 459px;
+}
+.go{
+  position: absolute;
+  top: 140px;
+  left: 418px;
+}
+.go{
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0; 
+  border-radius: 5px;
+background: #FFF;
+margin-top: 55px;
+}
+.mind{
+  position: absolute;
+  top: 75px;
+  left: 269px;
+  color: #FFF;
+
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 459px;
+}
+/* footer related section */
+.footer{
+ background: #1E1E1E;
+ background-size: 100%;
+ height: 577px;
+ margin-top: 120px;
+}
+.sub{
+ padding-top: 128px;
+ position: absolute;
+ right: 61px;
+}
+.scribe{
+  color: #FFF;
+
+font-family: "Work Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.email1{
+  background: #1E1E1E;
+ 
+  
+  border-color: #FFF;
+  color: white;
+  padding: 18px 18px  18px;
+  padding-right: 118px;
+  border-radius: 8px;
+  margin-top: 11px;
+}
+.email1:focus{
+  background-color:rgb(46, 46, 87);
+  
+}
+.button{
+  width: 170.106px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #005FAC;
+border: none;
+color: #FFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+position: relative;
+bottom: -90px;
+left: -310px;
+}
+.Future{
+  color: #F8F8F8;
+
+font-family: "Work Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+  position: relative;
+  right: 1070px;
 }
