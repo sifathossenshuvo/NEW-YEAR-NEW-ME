@@ -1,17 +1,16 @@
 
 
-   style{
-    // <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 100 to 900
-    
-    .work-sans-<uniquifier> {
-      font-family: "Work Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: bold;
-   }
-  }
- body {
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+  font-family: 'loto', sans-serif;
+  font-family: 'work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
+
+}
+
+ .banner {
 
   background-image: url('new-year-new-me-main/images/banner/banner3.png');
  
@@ -22,7 +21,7 @@ overflow-x: hidden;
 
 margin: 0;
 padding: 0;
-animation: change 10s infinite ease-in-out;
+animation: change 20s infinite ease-in-out;
 }
  @keyframes change{
 0%
@@ -57,9 +56,6 @@ animation: change 10s infinite ease-in-out;
 
 .banner{
   
-position: relative;
-right: -1130px;
-top: 70px;
 
   
     
@@ -69,7 +65,10 @@ top: 70px;
     margin-top: 230px;
     width: 500px;
     text-align: right;
+   position: relative;
+   left: 1140px;
    
+
   } 
   .banner-greeting{
     font-size: 65px; 
@@ -92,7 +91,7 @@ top: 70px;
 padding-left: 22px;
 line-height: 26px;
 position: relative;
-margin-top: 30px;
+margin-top:0px;
 
     }
 
@@ -120,7 +119,12 @@ top: -140px;
     transform: scale(0.8);
     transition: 1s ease;
     }
+.right{
+ margin-top: 130px;
+  position: relative;
+  top: -360px;
 
+}
  .image{
 
   display: flex;
@@ -128,7 +132,11 @@ top: -140px;
   padding-left: 200px;
  justify-content: center;
  padding-right: 350px;
-margin-top: 530px;
+
+position: relative;
+top: -60px;
+margin-top: 150px;
+m
  }
  .image{
 
@@ -148,6 +156,7 @@ margin-top: 530px;
  }
  .resume{
   position: relative;
+  top: -180px;
  }
  .skills-container{
   display: flex;
@@ -260,13 +269,13 @@ margin-top: 30px;
 .right{
   background-image: url(new-year-new-me-main/images/watch.png);
 margin-bottom: 20px;
-margin-top: 129px;
+
   background-repeat: no-repeat;
 background-position: center top;
 position: relative;
 text-align: center;
 opacity: 1;
-background-size: 1140px;
+background-size: 1141px;
 
 }
 
@@ -307,153 +316,106 @@ margin-top: 55px;
 .iner{
   padding-top: 60px;
 }
-/* footer related section */
-.footer{
-  background: #1E1E1E;
-  justify-content: flex-end;
-  height: 577px;
-  align-items: flex-end;
-   margin-top: 120px;
+/* footer */
+
+.social-links a{
+  margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"],
+textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #FFF;
+  border: 0;
+  width: 100%;
 
 }
+.btn-primary{
 
-.Future{
+
+  border-radius: 5px;
+background-color: #Fd6E0A;
+border: 0;
+color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 35px;text-indent: 0cqmin;
+}
+/* footer */
+.footer-submit{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.footer{
+  background-color: #151414;
+  
+  
+}
+.footer-title{
   color: #F8F8F8;
   font-size: 45px;
-  font-family: "bold";
 }
-.text{
- 
-  color: #FFFFFF;
-  
+.email,
+.phone{
+  color: #ffffff;
   font-size: 16px;
-  line-height: 26px;
-  height: 78px;
-  font-family: "Work Sans";
-  width: 485px;
-  position: relative;
-  top: -70px;
-  padding-top: 30px;
-  
-}
-.e-con{
-  color: #FFF;
-
-  font-family: "Work Sans";
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-  position: relative;
-  top: -100px;
-  padding-top: 30px;
-  
-}
-.Phone{
-  color: #FFF;
+  margin-top: 30px;
 
-  font-family: "Work Sans";
+}
+.footer-description{
+  color: #ffffff;
   font-size: 16px;
-  font-style: normal;
+  max-width: 485px;
   font-weight: 400;
-  line-height: 26px;
-  
-  position: relative;
-  top: -130px;
-  padding-top: 30px;
-  
   
 }
-.img{
-  position: relative;
-  top: -170px;
-  left: -15px;
-margin-top: 30px;
-padding: 16px;
- line-height: 26px;
- 
+.img-y{
+  margin-top: 30px;
+  padding: 0 5px;
 }
-.part1{
-
- padding: 20px, 0px;
-
-font-size: 16px;
-font-family: "Work Sans";
-font-style: "normal";
-
-
-
-
-}
-
 .footer-container{
-  font-size: 16px;
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 110px 230px;
+
+ 
+
+ 
 }
-.part2{
-
-
-}
-
-.sus{
-  color: #FFF;
-
-font-family: "Work Sans";
-font-size: 25px;
-font-style: "regular";
-font-weight: 600;
-line-height: normal;
-}
-.electric-mail{
+.Email{
+  background-color: #151414;
+  height: 64px;
   width: 325px;
-height: 64px;
-flex-shrink: 0;
-border-radius: 8px;
-
-border: 1px solid #FFF;
-font-family: "Work Sans ";
-background-color:  #151414;
-font-family: "Work Sans";
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-font-style: normal;
-color: #FFFFFF;
-
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  
 }
-
-.subimt1{
-  width: 170.106px;
-height: 64px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #005FAC;
-display: flex;
-color: #FFF;
-font-family: "Work Sans";
-font-style: "inter";
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-align: center;
-margin-top: 15px;
-border: none;
-
+.btn{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
 }
-
-
-
-.click-koro{
-  margin-left: 30px;
-  position: relative;
-  top: -6px;
+.shu{
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 36px;
 }
-.footer-container{
-display: flex;
-text-align: center;
-justify-content: space-around;
-padding: 20 0;
-text-align: left;
-
+.btn{
+  height: 64px;
+  width: 170px;
+  border-radius: 8px;
+  border: none;
+  background-color: #005FAC;
+  margin-top: 15px;
+  
+}
+::placeholder {
+  color: #F3F3F3;
+  padding-left: 20px;
+  font-size: 18px;
 }
